@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca:wght@400;700&display=swap');
+
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+
+.left-card {
+
+    background-color: hsl(31, 77%, 52%);
+    height: 70vh;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+
+}
+
+.middle-card {
+
+    background-color: hsl(184, 100%, 22%);
+    height: 70vh;
+
+
+}
+
+.right-card {
+   
+    background-color: hsl(179, 100%, 13%);
+    height: 70vh;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+h3 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 45px;
+    color: hsl(0, 0%, 95%);
+    margin-left: 15px;
+
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 15px;
+    margin-right: 15px;
+   
+}
+
+img {
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.button1 {
+
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 60px;
+    color: hsl(31, 77%, 52%);
+
+
+} 
+
+.button1:hover {
+
+    background-color:hsl(31, 77%, 52%);
+    color: white;
+    border-style: solid;
+
+}
+
+.button2 {
+
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 60px;
+    color: hsl(184, 100%, 22%);
+
+
+}
+
+.button2:hover {
+
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border-style: solid;
+}
+
+.button3 {
+
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 60px;
+    color: hsl(179, 100%, 13%);
+
+
+}
+
+.button3:hover {
+
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border-style: solid;
+    
+
+}
+
+@media screen {
+    
+}
