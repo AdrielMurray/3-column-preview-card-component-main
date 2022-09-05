@@ -9,32 +9,40 @@ font-family: 'Lexend Deca', sans-serif;
 */
 
 
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 .container {
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    margin-top: 200px;
-    margin-right: 200px;
-    margin-left: 200px;
-    margin-bottom: 200px;
+    max-width: 800px;
+    
+    
 }
 
 .left-card {
 
     background-color: hsl(31, 77%, 52%);
-    height: 70vh;
+   
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-   
-
+    padding-left: 20px;
+    padding-bottom: 50px;
 }
 
 .middle-card {
 
     background-color: hsl(184, 100%, 22%);
-    height: 70vh;
+    padding-left: 20px;
+    padding-bottom: 50px;
 
 
 }
@@ -42,9 +50,11 @@ font-family: 'Lexend Deca', sans-serif;
 .right-card {
    
     background-color: hsl(179, 100%, 13%);
-    height: 70vh;
+    
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding-left: 20px;
+    padding-bottom: 50px;
 
 }
 
@@ -52,23 +62,24 @@ h3 {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 45px;
     color: hsl(0, 0%, 95%);
-    margin-left: 15px;
-
+    padding: 20px;
+ 
 }
 
 p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
-    margin-left: 15px;
-    margin-right: 15px;
+    padding: 10px;
+    
    
 }
 
 img {
 
-    margin-top: 20px;
-    margin-left: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
 }
 
 .button1 {
@@ -76,12 +87,9 @@ img {
     border-radius: 30px;
     background-color: white;
     border: none;
-    height: 40px;
-    width: 100px;
-    margin-left: 20px;
-    margin-top: 60px;
+    
     color: hsl(31, 77%, 52%);
-
+    padding: 20px;
 
 } 
 
@@ -98,12 +106,9 @@ img {
     border-radius: 30px;
     background-color: white;
     border: none;
-    height: 40px;
-    width: 100px;
-    margin-left: 20px;
-    margin-top: 60px;
+    
     color: hsl(184, 100%, 22%);
-
+    padding: 20px;
 
 }
 
@@ -119,13 +124,10 @@ img {
     border-radius: 30px;
     background-color: white;
     border: none;
-    height: 40px;
-    width: 100px;
-    margin-left: 20px;
-    margin-top: 60px;
+    
     color: hsl(179, 100%, 13%);
-
-
+    padding: 20px;
+   
 }
 
 .button3:hover {
@@ -137,6 +139,28 @@ img {
 
 }
 
-@media screen {
+@media (max-width: 768px) {
+
+    body {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    
+    .container {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 800px;
+        
+        
+    }
+    
+
+
     
 }
